@@ -1,0 +1,35 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: Roboto, sans-serif;
+}
+
+.promotion__timer .title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.promotion__timer .timer {
+    display:flex;
+    justify-content:center;
+
+}
+.promotion__timer .timer__block {
+    width:102px;
+    height:120px;
+    background:#fff;
+    box-shadow:0 4px 20px rgba(0,0,0,.25);
+    font-size:16px;
+    font-weight:300;
+    text-align:center;
+    margin-right: 30px;
+}
+.promotion__timer .timer__block span {
+    display:block;
+    margin-top:20px;
+    margin-bottom:5px;
+    font-size:56px;
+    font-weight:700
+}
