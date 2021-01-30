@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-const deadline = '2021-02-25';
+const deadline = '2021-05-25';
 //this is the date when timer stops
 
 function getTimeRemaining (endtime) {
