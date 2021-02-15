@@ -1,7 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-const deadline = '2021-05-25';
-//this is the date when timer stops
+const deadline = '2021-03-15';
 
 function getTimeRemaining (endtime) {
     const t = Date.parse(endtime) - Date.parse(new Date()),
@@ -41,6 +40,7 @@ function setClock(selector, endtime) {
         const t = getTimeRemaining(endtime);
 
         function zeroStop(timeValue, timeSelector) {
+
             if (timeValue <= 0) {
                 timeSelector.innerHTML = '00';
             } else {

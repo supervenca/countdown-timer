@@ -1,32 +1,44 @@
 * {
-    box-sizing:border-box;
     margin:0;
     padding:0;
     font-family: Roboto, sans-serif;
 }
 
-.promotion__timer .title {
+body {
+    background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80");
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.birthday__timer {
+    align-self: center;
+}
+
+.birthday__timer .title {
     justify-content: center;
     text-align: center;
-    margin-top: 40px;
     margin-bottom: 40px;
+    text-shadow: darkgrey 1px 1px;
 }
-.promotion__timer .timer {
+.birthday__timer .timer {
     display:flex;
     justify-content:center;
 
 }
-.promotion__timer .timer__block {
+.birthday__timer .timer__block {
     width:102px;
     height:120px;
     background:#fff;
     box-shadow:0 4px 20px rgba(0,0,0,.25);
+    border-radius: 8px;
     font-size:16px;
     font-weight:300;
     text-align:center;
-    margin-right: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
-.promotion__timer .timer__block span {
+.birthday__timer .timer__block span {
     display:block;
     margin-top:20px;
     margin-bottom:5px;
