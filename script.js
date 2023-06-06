@@ -1,6 +1,15 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-const deadline = '2024-03-15';
+let deadline = new Date('2022-03-15');
+
+resetDeadLine();
+
+function resetDeadLine() {
+    let today = new Date;
+    if(today > deadline) {
+        deadline.setFullYear(today.getFullYear()+ 1)
+    }
+}
 
 function getTimeRemaining (endtime) {
     const t = Date.parse(endtime) - Date.parse(new Date()),
